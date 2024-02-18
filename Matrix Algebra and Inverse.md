@@ -2,16 +2,8 @@
 ## Inner and outer products
 The alternate view of producing linear combinations is the dot product. 
 If we imagine for example
-$$
-a = \begin{pmatrix}
-1 & 2  \\
-0 & 7  \\
-1 & 3
-\end{pmatrix} \text{ and }  b = \begin{pmatrix}
--1 & 5 & 2 & -2 \\
-2 & -2 & 0 & -3
-\end{pmatrix}
-$$ Compute AB!
+$$ a = \begin{pmatrix} 1 & 2  \\ 0 & 7  \\ 1 & 3 \end{pmatrix} \text{ and }  b = \begin{pmatrix} -1 & 5 & 2 & -2 \\ 2 & -2 & 0 & -3 \end{pmatrix} $$ 
+Compute AB!
 we take the dot product between $(1,2)$ and $(-1,2)$ or $(5,-2)$, etc.
 To compute the $i,j^{th}$  entry of a product, you need the $i$th entry of A and the $j$th entry of B. 
 
