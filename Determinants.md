@@ -1,6 +1,7 @@
 Recall that we introduced matrix multiplication as a transformation (or function) of $\vec{x}$. 
 
 Transformations encoded with matrices are a special type of function called a linear transformation, which by definition have the following properties:
+
 $$
 \begin{align} \\
 \forall(A\in \mathbb{R}^{m\times  n}\text{ and  }
@@ -37,8 +38,11 @@ $$
 if $Det(A) = 0$ then we knew that A is not invertible. This translates geometrically to the shape being taken to 0 area, i.e. compressing down dimensions. 
 
 For a visual proof of $Det(A)$ in 2 dimensions: 
+
 ![[Pasted image 20240219112057.png]]
-We take the entire area of the shape and subtract off any extra sides to find the area of the new shape. This gets the area of the $1\times 1$ square translated to a new shape as $ad-bc$. $$
+We take the entire area of the shape and subtract off any extra sides to find the area of the new shape. This gets the area of the $1\times 1$ square translated to a new shape as $ad-bc$. 
+
+$$
 \begin{align}
 \text{ how much the area changes } &=\frac{\text{ final size }}{\text{ initial size }}\\
  \det(A) &= \frac{ad-bc}{1} 
