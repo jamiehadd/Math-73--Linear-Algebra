@@ -35,9 +35,11 @@ $$
 \begin{pmatrix}
 1 \\
 4 \\
-\end{pmatrix} & \begin{pmatrix}
+\end{pmatrix} & 
+\begin{pmatrix}
 2 \\ 5 \\
-\end{pmatrix} & \begin{pmatrix}
+\end{pmatrix} & 
+\begin{pmatrix}
 3 \\ 6 \\
 \end{pmatrix}
 \end{bmatrix}
