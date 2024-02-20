@@ -19,11 +19,11 @@ $$
 \begin{pmatrix}
 1 \\
 2 \\
-3
+3 \\
 \end{pmatrix} & \begin{pmatrix}
 4 \\
 5 \\
-6
+6 \\
 \end{pmatrix}
 \end{bmatrix}
 $$
@@ -36,9 +36,9 @@ $$
 1 \\
 4 \\
 \end{pmatrix} & \begin{pmatrix}
-2 \\ 5 
+2 \\ 5 \\
 \end{pmatrix} & \begin{pmatrix}
-3 \\ 6
+3 \\ 6 \\
 \end{pmatrix}
 \end{bmatrix}
 $$
@@ -57,7 +57,7 @@ Ex:
 $$
 A = \begin{bmatrix}
 1 & -3 & -2 \\
--5 & 9 & 1
+-5 & 9 & 1 \\
 \end{bmatrix}
 \text{ and }
 \vec{u} = \begin{bmatrix}
