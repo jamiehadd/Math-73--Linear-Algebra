@@ -4,13 +4,16 @@ def: Suppose $A$ is a $n\times m$ matrix. The row space of $A$ is the subspace $
 The column space of $A$ is the subspace $row(A)$ or $\mathbb{R}^{m}$ spanned by the columns.
 
 If we take a matrix
+
 $$
 A=\begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6
 \end{bmatrix}
 $$
+
 row(A)
+
 $$
 = \begin{bmatrix}
 \begin{pmatrix}
@@ -24,7 +27,9 @@ $$
 \end{pmatrix}
 \end{bmatrix}
 $$
-and col(a) = $$
+
+and col(a) = 
+$$
 \begin{bmatrix}
 \begin{pmatrix}
 1 \\
@@ -36,6 +41,7 @@ and col(a) = $$
 \end{pmatrix}
 \end{bmatrix}
 $$
+
 We can see that the dimension of the Row space is 2, so the column-space also has dimension 2.
 
 A #consistent system has either 1 or infinitely many solutions. $\infty$ is if there is a free variable, or #inconsistent if there is an impossible row, ie $\begin{bmatrix}0&0&0&|&nonzero\end{bmatrix}$ 
