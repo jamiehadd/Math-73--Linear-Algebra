@@ -52,6 +52,7 @@ row(A) tells us the possible results of doing EROs on $A$.
 
 Null(A) = $\{ \vec{x}\in\mathbb{R}^{n}:A\vec{x}=\vec{0} \}$. 
 Ex:
+
 $$
 A = \begin{bmatrix}
 1 & -3 & -2 \\
@@ -60,7 +61,9 @@ A = \begin{bmatrix}
 5\\3\\-2
 \end{bmatrix}
 $$
+
 Null(A):
+
 $$
 A\vec{u}=\begin{bmatrix}
 1 & -3 & -2 \\
@@ -71,6 +74,7 @@ A\vec{u}=\begin{bmatrix}
 0\\0 \\
 \end{pmatrix}
 $$
+
 Theorem: The null space of an $m\times n$ matrix $A$ is a subspace of $\mathbb{R}^{n}$. 
 proof: Note $A \vec{0} = \vec{0}$, so $\vec{0} \in nul l(A)$.
 Suppose $\vec{v},\vec{u}\in n u ll(A)$. Note that $A(c\vec{u}+d\vec{v})=cA\vec{u}+dA\vec{v}=c_{0}0+d_{0}0=\vec{0}$, so $c\vec{u}+d\vec{v}\in \text{ null }(A)$
@@ -80,6 +84,7 @@ The idea behind the null space of a matrix is that it is precisely those vectors
 We do this by finding the null space of a reduced row echelon form of $A$, which has the same null space as $A$. That is, if  $B$ is the reduced row echelon form for $A$ , $Ax=0$ if and only if $Bx=0$ So, $N(B)=N(A)$ 
 
 For example, take
+
 $$
 A=\begin{bmatrix}
 1 & 4 & 0 & 2 & -1 \\
@@ -88,7 +93,9 @@ A=\begin{bmatrix}
 5 & 20 & 2 & 8 & 8
 \end{bmatrix}
 $$
-We reduce to RREF, then find the free variables and write the result in a nice form $$
+
+We reduce to RREF, then find the free variables and write the result in a nice form 
+$$
 \begin{bmatrix}
 x_{1}\\x_{2}\\x_{3}\\x_{4}\\x_{5}
 \end{bmatrix}=
