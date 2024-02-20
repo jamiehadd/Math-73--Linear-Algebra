@@ -29,11 +29,12 @@ $$
 $$
 
 and col(a) = 
+
 $$
 \begin{bmatrix}
 \begin{pmatrix}
 1 \\
-4
+4 \\
 \end{pmatrix} & \begin{pmatrix}
 2 \\ 5 
 \end{pmatrix} & \begin{pmatrix}
