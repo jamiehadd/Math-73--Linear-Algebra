@@ -51,7 +51,8 @@ col(A) tells us what $\vec{b}$ vectors yield consistent linear solutions. These 
 row(A) tells us the possible results of doing EROs on $A$. 
 
 Null(A) = $\{ \vec{x}\in\mathbb{R}^{n}:A\vec{x}=\vec{0} \}$. 
-Ex: $$
+Ex:
+$$
 A = \begin{bmatrix}
 1 & -3 & -2 \\
 -5 & 9 & 1
