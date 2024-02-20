@@ -57,8 +57,10 @@ $$
 A = \begin{bmatrix}
 1 & -3 & -2 \\
 -5 & 9 & 1
-\end{bmatrix}\text{ and } \vec{u}=\begin{bmatrix}
-5\\3\\-2
+\end{bmatrix}
+\text{ and }
+\vec{u} = \begin{bmatrix}
+5\\3\\-2\\
 \end{bmatrix}
 $$
 
